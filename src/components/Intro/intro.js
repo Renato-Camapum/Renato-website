@@ -1,6 +1,5 @@
 import React from 'react'
 import './intro.css'
-import { Link } from 'react-scroll'
 import picture from '../../assets/renato.png'
 
 const Intro = () => {
