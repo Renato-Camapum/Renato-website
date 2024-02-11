@@ -79,12 +79,7 @@
         
     }
 
-    .intro-paragraph, .hello {
-        -webkit-text-stroke: 1.1px rgb(0, 0, 0);
-        color:  rgb(255, 253, 127);
-        font-weight: 600;
-    }
-
+   
     .hello {
         font-size: 4.5vw;
     }
