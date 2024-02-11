@@ -14,7 +14,7 @@
     font-size: 3rem;
     font-weight: 600;
     padding-top: 3rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .skill-description {
@@ -40,9 +40,9 @@
 }
 
 .skill-image {
-    object-fit: contain;
-    height: 3rem;
-    width: 3rem;
+    object-fit: cover;
+    height: 4rem;
+    width: 5rem;
     margin-right: 2rem;
 }
 
@@ -58,16 +58,23 @@ font-weight: 200;
 }
 
 @media screen and (max-width:480px) {
+
+    .skill-bar {
+        display:block;
+        text-align: center;
+    }
+
     .skill-bar-text p {
         font-size: 3vw;
     }
 
     .skill-bar-text h2 {
+        margin-top: 0.5rem;
         font-size: 5vw;
     }
 
     .skill-image {
-        width: 2.25rem;
-        height: 2.25rem;
+       display: flex;
+       margin: 0 auto;
     }
 }

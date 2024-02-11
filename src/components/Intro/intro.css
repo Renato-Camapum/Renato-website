@@ -27,6 +27,8 @@
     justify-content: center;
 }
 
+
+
 .hello {
     font-size: 1.75rem;
     font-weight: 100;
@@ -43,11 +45,16 @@
 }
 
 .cv-btn {
+    transition: all .5s ease;
     background: white;
     margin: 1rem 0;
     padding: 0.75rem 1.5rem;
     border: none;
     border-radius: 2rem;
+}
+
+.cv-btn:hover {
+    background: rgb(248, 222, 34);
 }
 
 .fa-file-arrow-down {
@@ -63,7 +70,19 @@
     }
 
     .intro-content {
+        
         font-size: 10vw;
+    }
+
+    .intro-text {
+        -webkit-text-stroke: 1px rgb(0, 0, 0);
+        
+    }
+
+    .intro-paragraph, .hello {
+        -webkit-text-stroke: 1.1px rgb(0, 0, 0);
+        color:  rgb(255, 253, 127);
+        font-weight: 600;
     }
 
     .hello {
@@ -73,7 +92,7 @@
 
 @media screen and (max-width:480px) {
     .bg-picture {
-        right: -65vw;
+        right: -10vw;
     }
 
     .intro-content {

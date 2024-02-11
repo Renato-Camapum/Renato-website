@@ -1,7 +1,7 @@
 #works {
     min-height: calc(100vh - 4rem);
     width: 100vw;
-    max-width: 60rem;
+    max-width: 50rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,6 +28,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     flex-wrap: wrap;
     width: 100vw;
     max-width: 48rem;
@@ -35,13 +36,15 @@
 
 .works-image {
     object-fit: cover;
-    height: 20rem;
-    margin: 0.5rem;
+    height: 12rem;
+    width: 25rem;
+    margin: 1rem;
 }
 
 .works-btn {
+    transition: all .5s ease;
     padding: 0.5rem 2.5rem;
-    margin: 1rem 0;
+    margin: 2rem 0;
     border: none;
     background: white;
     border-radius: 2rem;
@@ -49,8 +52,14 @@
     color: rgb(30, 30, 30);
 }
 
-@media screen and (max-widrh:585px) {
+.works-btn:hover {
+    background: rgb(248, 222, 34);
+}
+
+@media screen and (max-width:585px) {
     .works-image {
-        height: 50vw;
+    object-fit: contain;
+    margin: 0rem;
+    width: 80%;
     }
 }

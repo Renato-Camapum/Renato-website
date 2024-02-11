@@ -1,13 +1,14 @@
 #contact-page {
     min-height: calc(100vh - 4rem);
     width: 100vw;
-    max-width: 60rem;
-    margin: 3rem auto;
+    max-width: 50rem;
+    margin: 4rem auto;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+   
 }
 
 .languages-title, .contact-title {
@@ -17,6 +18,8 @@
 }
 
 .languages-description, .contact-description {
+    display: flex;
+    justify-content: center;
     font-size: medium;
     font-weight: 300;
     max-width: 50rem;
@@ -31,9 +34,9 @@
 }
 
 .languages-image {
-    object-fit: cover;
-    width: 10%;
-    min-width: 5rem;
+    object-fit: contain;
+    width: 7%;
+    min-width: 3rem;
     margin: 0 5px;
     padding: 0.25rem;
 }
@@ -61,6 +64,7 @@
 }
 
 .submit-btn {
+    transition: all .5s ease;
     padding: 0.5rem 2.5rem;
     margin: 2rem 0;
     border: none;
@@ -68,6 +72,10 @@
     border-radius: 2rem;
     font-size: 1rem;
     color: rgb(30, 30, 30);
+}
+
+.submit-btn:hover {
+    background: rgb(248, 222, 34);
 }
 
 .social-media {
