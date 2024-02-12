@@ -8,7 +8,7 @@ const Intro = () => {
      <img src={picture} alt='' className='bg-picture' />
         <div className='intro-content'>
             <span className='hello'>Hello,</span>
-            <span className='intro-text'>I'm <span className='intro-name'>Renato</span> <br/>web developer.</span>
+            <span className='intro-text'>I'm <span className='intro-name'>Renato,</span> <br/> a web developer.</span>
             <p className='intro-paragraph'>Commited web developer passionate about crafting elegant solutions and enhancing user experiences through innovative design and seamless functionality.</p>
             <a href='./Renato-cv.pdf' download><button className='cv-btn'><i class="fa-solid fa-file-arrow-down"></i>Download CV</button></a>
         </div>

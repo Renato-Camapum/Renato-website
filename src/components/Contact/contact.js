@@ -36,8 +36,8 @@ const Contact = () => {
   return (
     <section id='contact-page'>
     <div id="languages">
-        <h2 className="languages-title">Languages and FrameWorks</h2>
-        <sapn className="languages-description">Here some of the Languages and framewors I use.</sapn>
+        <h2 className="languages-title">Languages and Frameworks</h2>
+        <sapn className="languages-description">Here some of the Languages and frameworks I use.</sapn>
         <div className="languages-images">
             <img src={php} alt="php" className="languages-image" />
             <img src={react} alt="react" className="languages-image" />
@@ -51,10 +51,10 @@ const Contact = () => {
     </div>
         <div id="contact">
             <h2 className="contact-title">Contact Me</h2>
-            <span className="contact-description">PLease fill out the form bellow to discuss any work opportunities.</span>
+            <span className="contact-description">Please fill out the form below to discuss any work opportunities.</span>
             <form className="contact-form" ref={form}  onSubmit={sendEmail}>
                 <input className='name' type='text' placeholder='Your Name' name='from_name'/>
-                <input className='email' type='email' placeholder='Your email' name='from_email'/>
+                <input className='email' type='email' placeholder='Your Email' name='from_email'/>
                 <textarea className='message' name='message' rows='5' placeholder='Your Message' />
                 <button type='submit' value='send' className="submit-btn">Submit</button>
                 <div className="social-media">
