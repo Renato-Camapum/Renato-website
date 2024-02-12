@@ -12,7 +12,7 @@ const Skills = () => {
   return (
     <section id='skills'>
         <h2 className='skill-title'>What I do</h2>
-        <span className='skill-description'>I am a skilled and passionate web developer with 3 years of experience creating and maintaining visually appealing websites and webbApps. Here my top 5 qualities. 
+        <span className='skill-description'>I am a skilled and passionate web developer with 3 years of experience creating and maintaining visually appealing websites and webbApps. Here is my top 5 qualities. 
         </span>
         <div className='skill-bars'>
             <div className='skill-bar'>
