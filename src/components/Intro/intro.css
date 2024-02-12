@@ -88,13 +88,17 @@
 
 @media screen and (max-width:480px) {
     #intro {
-        height: 104vh;
+        height: 144vh;
 
     }
     .bg-picture {
         position: relative;
         height: 70vh;
         width: 100vw;
+    }
+
+    .intro-paragraph {
+        width: 100%;
     }
 
     .intro-content {
