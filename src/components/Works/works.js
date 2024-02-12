@@ -7,7 +7,7 @@ import landing from '../../assets/landing-page.png'
 const Works = () => {
   return (
     <section id='works'>
-       <h2 className="works-title">My Portifolio</h2>
+       <h2 className="works-title">My Portfolio</h2>
        <sapn className="works-description">Explore my portfolio for a glimpse into my web development journey. Discover diverse projects showcasing creativity, and user-centric design.</sapn>
        <div className="works-images">
         <a href='https://tilt-memory-game.netlify.app/' target='_blank' rel="noreferrer"><img src={memory} alt="" className="works-image" /></a>
