@@ -53,9 +53,9 @@ const Contact = () => {
             <h2 className="contact-title">Contact Me</h2>
             <span className="contact-description">Please fill out the form below to discuss any work opportunities.</span>
             <form className="contact-form" ref={form}  onSubmit={sendEmail}>
-                <input className='name' type='text' placeholder='Your Name' name='from_name'/>
-                <input className='email' type='email' placeholder='Your Email' name='from_email'/>
-                <textarea className='message' name='message' rows='5' placeholder='Your Message' />
+                <input className='name' type='text' placeholder='Your Name' name='from_name' required/>
+                <input className='email' type='email' placeholder='Your Email' name='from_email' required/>
+                <textarea className='message' name='message' rows='5' placeholder='Your Message' required />
                 <button type='submit' value='send' className="submit-btn">Submit</button>
                 <div className="social-media">
                     <a href='https://www.linkedin.com/in/renato-pinto-de-freitas-camapum/' target='_blank'  rel="noreferrer"> <img src={instagram} alt='' className='social-links' /></a>
