@@ -89,6 +89,7 @@
 @media screen and (max-width:480px) {
     #intro {
         height: 144vh;
+        margin: 0 auto;
 
     }
     .bg-picture {

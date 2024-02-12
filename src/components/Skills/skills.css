@@ -64,6 +64,10 @@ font-weight: 200;
         text-align: center;
     }
 
+    .skill-title {
+        margin-top: 0;
+    }
+    
     .skill-bar-text p {
         font-size: 3vw;
     }
